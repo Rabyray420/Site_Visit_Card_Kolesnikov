@@ -411,3 +411,97 @@ body.showCart .container{
         text-align: center;
         display: none;
        }
+
+       .obratnuj-zvonok{
+        width:100%;
+        max-width:350px;
+        text-align: center;
+        display: block;
+    margin-left: auto;
+    margin-right: auto 
+    }
+    .form-zvonok{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        padding:0 20px;
+        box-sizing:border-box;
+    }
+    .form-zvonok div{
+        padding:15px 0;
+    }
+    .bot-send-mail{
+        box-sizing:border-box;
+        width:100%;
+    }
+    .form-zvonok label,.form-zvonok input{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    }
+    .form-zvonok label{
+        margin-bottom:5px;
+        font-weight:bold;
+    }
+    .form-zvonok input{
+        padding:10px 15px;
+        margin-top:10px;
+    }
+    .form-zvonok label span{
+        color:red;
+    }
+    .form-zvonok .bot-send-mail{
+        padding:15px;
+        margin-top:10px;
+    background:none;
+    border:none;
+    text-transform:uppercase;
+    color:#fff;
+        font-weight:bold;
+        background-color:#009b97;
+        cursor:pointer;
+        border:3px #009b97 solid;
+        border-radius:5px;
+
+        padding: 20px 20px;
+        margin: 15px;
+       border: 0px;
+        color: rgb(255, 255, 255);
+        transition: .2s linear;
+        background-color: #000000;
+             cursor: pointer;
+    }
+    .form-zvonok .bot-send-mail:hover{
+        background-color: rgb(255, 140, 0);
+    }
+
+
+    #registration{
+        padding: 20px 20px;
+        margin: 15px;
+       border: 0px;
+        color: rgb(255, 255, 255);
+        transition: .2s linear;
+        background-color: #000000;
+             cursor: pointer;
+       
+       }
+       
+       #registration:hover {
+           
+             background-color: rgb(255, 140, 0);
+       }
+
+    .obr_connect{
+        color: rgb(185, 185, 185);
+    padding: 20px 20px;
+    padding-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(12, 12, 12, 0.418);
+    /* border-radius: 20px; */
+    font-size: xx-large;
+    /* font-family: Poppins; */
+    /* text-transform:lowercase; */
+    text-align: center;
+    }
