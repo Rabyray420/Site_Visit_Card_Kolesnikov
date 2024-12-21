@@ -120,7 +120,7 @@ border: 0px;
 
 
 body{
-   background: url(images/background2.jpg);
+   background: url(background2.jpg);
    background-size: cover;
    margin: 0;
   /* font-family: Poppins; */
@@ -142,7 +142,7 @@ background: url(/images/background2.jpg)no-repeat ;
     font-size: xx-large;
     /* font-family: Poppins; */
     /* text-transform:lowercase; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 footer{
@@ -458,14 +458,12 @@ body.showCart .container{
     text-transform:uppercase;
     color:#fff;
         font-weight:bold;
-        background-color:#009b97;
+        
         cursor:pointer;
-        border:3px #009b97 solid;
+        border:3px #444444 solid;
         border-radius:5px;
 
-        padding: 20px 20px;
-        margin: 15px;
-       border: 0px;
+        
         color: rgb(255, 255, 255);
         transition: .2s linear;
         background-color: #000000;
@@ -505,3 +503,21 @@ body.showCart .container{
     /* text-transform:lowercase; */
     text-align: center;
     }
+
+    #img_anonymus {
+        max-width: 500px;
+        float:left; /* обтекание слева */
+    margin:10px;
+    margin-top:0px;
+        margin: 0 auto;
+        display: block;
+      }
+
+      #img_hacker {
+        max-width: 500px;
+        float:right;
+    margin:10px;
+    margin-top:0px;
+        margin: 0 auto;
+        display: block;
+      }
